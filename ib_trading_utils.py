@@ -2,7 +2,7 @@ from ib_insync import *
 import logging
 import time
 from datetime import datetime
-
+from ib_insync import Stock, Option, MarketOrder
 class IBTradingSystem:
     def __init__(self):
         # Set up logging
